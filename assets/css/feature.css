@@ -1,0 +1,27 @@
+/*!
+ * Copyright (c) 2017.
+ * All Rights Reserved to Valentin Sickert aka Lapotor.
+ * This work is protected by copyright laws and international treaties.
+ */
+/*===================================================
+ *                    Variablen
+ *===================================================*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:300,400,700");
+/*===================================================
+ *                     Styling
+ *===================================================*/
+html body #feautures {
+  background-color: #5F75FF; }
+  html body #feautures i.fas.card-title, html body #feautures i.far.card-title {
+    font-size: 7rem; }
+  html body #feautures .card {
+    border: 0;
+    border-radius: 0; }
+    html body #feautures .card .card-header {
+      background-color: rgba(0, 0, 0, 0.3); }
+      html body #feautures .card .card-header .badge-custom {
+        background-color: rgba(162, 74, 178, 0.85);
+        vertical-align: top;
+        font-size: 60%; }
+
+/*# sourceMappingURL=feature.css.map */

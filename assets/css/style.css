@@ -1,0 +1,93 @@
+/*!
+ * Copyright (c) 2017.
+ * All Rights Reserved to Valentin Sickert aka Lapotor.
+ * This work is protected by copyright laws and international treaties.
+ */
+/*===================================================
+ *                    Variablen
+ *===================================================*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:300,400,700");
+/*===================================================
+ *                 Bootstrap Custom
+ *===================================================*/
+.bg-dark {
+  background-color: #1b1b1b !important; }
+
+.bg-dark.navbar .dropdown-menu {
+  background-color: #1b1b1b;
+  color: #212529; }
+  .bg-dark.navbar .dropdown-menu .dropdown-divider {
+    border-top: 1px solid #2c2c2c; }
+  .bg-dark.navbar .dropdown-menu .dropdown-header {
+    cursor: default; }
+  .bg-dark.navbar .dropdown-menu .dropdown-item.disabled {
+    cursor: default;
+    color: rgba(128, 128, 128, 0.5);
+    background-color: transparent; }
+  .bg-dark.navbar .dropdown-menu a.dropdown-item:not(.disabled) {
+    color: rgba(255, 255, 255, 0.5); }
+    .bg-dark.navbar .dropdown-menu a.dropdown-item:not(.disabled):focus, .bg-dark.navbar .dropdown-menu a.dropdown-item:not(.disabled):hover {
+      background-color: rgba(255, 255, 255, 0.1); }
+
+.fa-1x {
+  width: 1em;
+  height: 1em;
+  line-height: 1em; }
+
+.fa-stack i.fa-circle {
+  color: #E8E8FF; }
+.fa-stack i.fa-question-circle {
+  color: #1E92EF; }
+
+.raleway {
+  font-family: 'Raleway', sans-serif; }
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif; }
+
+.bold {
+  font-weight: bold; }
+
+.color-1 {
+  background-color: #4758BF;
+  color: #E8E8FF; }
+
+.color-2 {
+  background-color: #2F3A7F;
+  color: #E8E8FF; }
+
+.color-3 {
+  background-color: #181D40;
+  color: #E8E8FF; }
+
+.bg-primary {
+  background-color: #34418C !important; }
+
+.btn-outline-light:hover, .btn-outline-light:focus {
+  color: #343a40; }
+
+mark {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: inherit; }
+
+/*===================================================
+ *                     Styling
+ *===================================================*/
+html body i.fa-ticket-alt {
+  transform: rotate(-45deg); }
+html body #navbar-top span.fa-stack {
+  font-size: 1.5em;
+  margin-right: 0.25rem; }
+html body #header img {
+  width: 100%;
+  height: auto; }
+html body footer a {
+  text-decoration: none;
+  color: #E8E8FF;
+  opacity: .7; }
+  html body footer a:hover, html body footer a:focus {
+    text-decoration: underline;
+    color: #E8E8FF; }
+
+/*# sourceMappingURL=style.css.map */
