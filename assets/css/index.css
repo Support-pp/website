@@ -10,6 +10,26 @@
 /*===================================================
  *                     Styling
  *===================================================*/
+
+.infoBox{
+  background-color: #BC2A1A;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.infoBox img{
+  margin-top: 5px;
+  margin-right: 8px;
+}
+
+.infoBox a{
+  color: wheat;
+}
+
+
 html body #feautures {
   background-color: #5F75FF; }
   html body #feautures i.fas.card-title, html body #feautures i.far.card-title {
