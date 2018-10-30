@@ -1,319 +1,60 @@
-
-
-
+<!--
+  ~ Copyright (c) 2018.
+  ~ All Rights Reserved to magiCCoder.
+  ~ This work is protected by copyright laws and international treaties.
+  -->
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<meta name="author" content="Valentin Sickert">
-<meta name="description" content="Das einzig ware Support Script">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Support++ - Die Pro Version</title>
-<link rel="icon" type="image/png" href="./assets/img/help.png" sizes="32x32">
-<link rel="icon" type="image/png" href="./assets/img/help.png" sizes="96x96">
-<meta property="og:title" content="Support++ - Pro Version" />
-<meta property="og:type" content="website" />
-<meta property="og:description" content="Support++ mit einer Spende unterstützen und dankeschöns erhalten." />
-<meta property="og:url" content="https://support-pp.de/pro/" />
-<meta property="og:image" content="https://support-pp.de./assets/img/help.png" />
-<link rel="stylesheet" type="text/css" href="./assets/css/preloader.css" />
-<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
-<link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-<link rel="stylesheet" type="text/css" href="./assets/css/pro.css" />
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content */
-.modal-content {
-    position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    border: 1px solid;
-    width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s
-}
-
-@-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
-    to {top:0; opacity:1}
-}
-
-@keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-}
-
-.close {
-    color: white;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.modal-header {
-    padding: 2px 16px;
-    background-color: #f08B16;
-    color: white;
-}
-
-.modal-body {padding: 2px 16px;}
-
-.modal-footer {
-    padding: 2px 16px;
-    background-color: #f08B16;
-    color: white;
-}
-.modal-body img{
-		float: right;
-		height=20px;
-		width=20px;
-	margin-top: 1%
-}
-		.tooltip {
-    position: relative;
-    display: inline-block;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 140px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px;
-    position: absolute;
-    z-index: 1;
-    bottom: 150%;
-    left: 50%;
-    margin-left: -75px;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="author" content="Valentin Sickert">
+    <meta name="description" content="Das einzig ware Support Script">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script type="text/javascript">
+        window.location.replace("https://pay.mgicc.de/support-pp.de.html");
+    </script>
+    <noscript>
+        <meta http-equiv="refresh" content="0; URL=https://pay.mgicc.de/support-pp.de.html">
+    </noscript>
+    <title>Support++ - Die Pro Version</title>
+    <link rel="icon" type="image/png" href="./assets/img/help.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./assets/img/help.png" sizes="96x96">
+    <meta property="og:title" content="Support++ - Pro Version"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="Support++ mit einer Spende unterstützen und dankeschöns erhalten."/>
+    <meta property="og:url" content="https://support-pp.de/pro/"/>
+    <meta property="og:image" content="https://support-pp.de./assets/img/help.png"/>
 </head>
-<body>
-<section id="header">
-<img src="./assets/img/Support.png" alt="">
-</section>
-<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="1767851d-cda1-49b6-8bba-4043382cd9ce" type="text/javascript" async></script>
-<nav id="navbar-top" class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-<a class="navbar-brand" href="/"><span class="fa-stack fa-1x">
-<i class="fa fa-circle fa-stack-1x"></i>
-<i class="fa fa-question-circle fa-stack-1x"></i>
-</span>
-Support++</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarColor01">
-<ul class="navbar-nav mr-auto">
-<li class="nav-item active">
-<a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-</li>
-<li class="nav-item ">
-<a class="nav-link" href="./features.html">Features</a>
-</li>
-<li class="nav-item ">
-<a class="nav-link" href="./pro.html">Go Pro</a>
-</li>
-<li class="nav-item ">
-<a class="nav-link disabled" href="#">About Us</a>
-</li>
-<li class="nav-item ">
-<a class="nav-link" href="https://discord.gg/3acZCcu" target="_blank">Support <span style="vertical-align: center; font-size: 1rem; color: #7289da;"><i class="fab fa-discord"></i></span></a>
-</li>
-<li class="nav-item ">
-<a class="nav-link" href="https://status.support-pp.de/">Status <span style="vertical-align: text-top; font-size: 0.5rem"><i class="fas fa-external-link-alt"></i></span></a>
-</li>
-<li class="nav-item dropdown">
-<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-Download
-</a>
-<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-<a class="dropdown-item" href="https://github.com/Support-pp/Support-pp" target="_blank">Source
-Code <span style="vertical-align: text-top; font-size: 0.5rem"><i class="fas fa-external-link-alt"></i></span></a>
-<a class="dropdown-item" href="https://github.com/Support-pp/Support-pp/releases/tag/2.0.4.9-2
-" target="_blank">Stable Release <span style="vertical-align: text-top; font-size: 0.5rem"><i class="fas fa-external-link-alt"></i></span></a>
-<div class="dropdown-divider my-1"></div>
-<a class="dropdown-item disabled" data-toggle="tooltip" data-placement="right" title="Disabled">Modules</a>
-<div class="dropdown-divider my-1"></div>
-<h5 class="dropdown-header font-italic">
-Latest version: 2.0.4.9-2
-</h5>
-</div>
-</li>
-</ul>
-</div>
-</nav><section id="whatIsPro" class="bg-primary">
-<div class="container-fluid">
-<div class="row">
-<div class="col-12 py-3 text-center text-light">
-<h1 class="raleway bold display-4">Was bekommst du mit Pro?</h1>
-</div>
-<div class="card col-lg-4 color-1 py-4">
-<i class="fas fa-ticket-alt card-title mx-auto"></i>
-<h3 class="card-header text-center">Discord Ticket Antwort</h3>
-<div class="card-body text-justify">
-Mit der Pro Version erhältst du vollen Zugriff auf das Ticketsystem. Du kannst nun die Tickets, welche User auf dem Teamspeak
- erstellen nicht nur auf Discord weiterleiten, sondern auch von dort beantworten.
-</div>
-</div>
-<div class="card col-lg-4 color-2 py-4">
-<i class="fas fa-user-circle card-title mx-auto"></i>
-<h3 class="card-header text-center">Discord Rang</h3>
-<div class="card-body text-justify">
-Mit dem Erwerb der Pro-Version erhältst Du auf unserem Discord den Pro-Rang, welcher deinen Namen lila färbt und Dir Zugriff auf
-weitere Channels gibt.
-</div>
-</div>
-<div class="card col-lg-4 color-3 py-4">
-<i class="fas fa-database card-title mx-auto"></i>
-<h3 class="card-header text-center">Datenbank</h3>
-<div class="card-body text-justify">
-Wir bieten dir eine MySQL Datenbank für z.B. das Feedback System an. Diese ist auf Anfrage erhältlich für Pro User.
-</div>
-</div>
-<div c <div class="col-12 my-3">
-<div class="container">
-<div class="row">
-<div class="col-12">
-<p class="text-white text-justify">
-Mit der Pro Version, die du durch eine kleine <b>
-<mark>freiwillige Spende</mark>
-</b> erhältst, unterstützt du den Erhalt und die Weiterentwicklung des Projektes. Du
-erhältst nun Zugang zu den Funktionen, Tickets via Discord zu beantworten, erhältst für das Feedback-system eine Datenbank von
-uns und
-bekommst
-Zugang zu Privatem Support auf unserem Discord Server. Da wir aber möchten, dass jede spende festgehalten und für alle sichtbar
-verewigt
-wird,
-hat jeder Pro Nutzer die Möglichkeit sich im Source-Code (Webinterface) mit einer eigenen Nachricht zu verewigen.
-</p>
-<p class="text-white text-justify">
-Ein Spenden über PaySafeCards <em>(PSC)</em> ist leider nicht möglich.<br />
-Da wir für die Spendenannahme <i class="fab fa-paypal"></i> PayPal nutzen ist ein Spendenbetrag von unter 1,00 EUR nicht möglich. <br />
-<i class="fab fa-email"></i>Durch deine Spende via PayPal erlaubst du uns, dir Informationen via E-Mail zu übermitteln. Keine Angst, du kannst den Newsletter jederzeit wieder abbestellen.
-</p>
-</div>
-</div>
-</div>
-</div>
-<style>
-				.don-5{
-					color: white;
-					display: block;
-					margin-left: auto;
-					margin-right: auto;
-				}
-				.don-5 button{
-   position: relative;
-     float: left;
-     left: 30%;
-     margin-left: 20px;
- 
-				}
-
-    		</style>
-<div class="don-5">
-<form>
-<div>
-<input type="checkbox" required id="older16" name="older" value="older">
-<label for="oder16"><mark>Hiermit bestätige ich, das ich über 16 Jahre alt bin, oder eine Einverständniserklärung meiner Eltern besitze.</mark></label>
-</div>
-<div>
-<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
-<label for="subscribeNews">Das Support++ Team darf mich via E-Mail kontaktieren.</label>
-</div>
-<input name="cmd" value="_s-xclick" type="hidden">
-<input name="hosted_button_id" value="U9X6HMAFQAB2Q" type="hidden">
-<button class="btn btn-success btn-lg d-inline-block" style="cursor: pointer" name="submit" type="submit" formaction="https://www.paypal.com/cgi-bin/webscr" formmethod="post" target="_top"><i class="fab fa-paypal"></i> Paypal
-</form>
-</div>
-<div class="col-12">
-&nbsp;
-</div>
-</div>
-</div>
-</section>
-
-<style type="text/css">body {-ms-overflow-style: scrollbar;}@media(max-width:991px){#pe_badge_cgdejsbk {display:none;}}</style>
-<a id="pe_badge_cgdejsbk" style="z-index:9999;position:fixed;float:left;line-height:0;right:0px;bottom:10px;"></a><script type="text/javascript" src="https://www.provenexpert.com/badge/recommend.js?id=18TZ4ZmomyGB3NQA1pGZl52p48TA1LmA&w=195&key=cgdejsbk" async></script>
-
 <footer class="container-fluid color-3 pb-2">
-<div class="row text-center">
-<div class="col-md-4 py-1">
-<i class="fas fa-angle-double-right"></i>&nbsp;<a href="./privacy.html">Datenschutz</a>&nbsp;<i class="fas fa-angle-double-left"></i>
-</div>
-<div class="col-md-4 py-1 ">
-    Hosted on <a href="https://github.com/support-pp/website">GitHub</a> ❤️ | A <a href="https://magiccoder.de">magiCCoder</a> project!
+    <div class="row text-center">
+        <div class="col-md-4 py-1">
+            <i class="fas fa-angle-double-right"></i>&nbsp;<a href="https://magiccoder.de/datenschutz.html">Datenschutz</a>&nbsp;<i class="fas fa-angle-double-left"></i>
+        </div>
+        <div class="col-md-4 py-1 ">
+            Hosted on <a href="https://github.com/support-pp/website">GitHub</a> ❤️ | A <a href="https://magiccoder.de">magiCCoder</a> project!
+        </div>
+        <div class="col-md-4 py-1">
+            <i class="fas fa-angle-double-right"></i>&nbsp;<a href="https://magiccoder.de/impressum.html">Impressum</a>&nbsp;<i class="fas fa-angle-double-left"></i>
+        </div>
     </div>
-<div class="col-md-4 py-1">
-<i class="fas fa-angle-double-right"></i>&nbsp;<a href="./imprint.html">Impressum</a>&nbsp;<i class="fas fa-angle-double-left"></i>
-</div>
-</div>
 </footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
 <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
 <script type="text/javascript">
-    $(window).on("load",function () {
+    $(window).on("load", function () {
         $('body').addClass('loaded');
     });
     $("nav").ready(function () {
-        $("a.disabled").removeAttr("href", "#").css("cursor","pointer");
+        $("a.disabled").removeAttr("href", "#").css("cursor", "pointer");
     });
 </script>
 <style>
-	.very-samll{
-		font-size: 9px;
-		color: white;
-	}
+    .very-samll {
+        font-size: 9px;
+        color: white;
+    }
 </style
 
 </html>
