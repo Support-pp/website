@@ -1,9 +1,7 @@
 {
-  "version": 3,
-  "mappings": "AAAA;;;;GAIG;AACH;;uDAEuD;AAC/C,gGAAwF;AAWhG;;uDAEuD;AAGnD,oBAAW;EACT,gBAAgB,EAdT,OAAO;EAed,qCAAiB;IACf,SAAS,EAAE,IAAI;EAEjB,oCAAe;IACb,SAAS,EAAE,cAAc;EAE3B,0BAAM;IACJ,MAAM,EAAE,CAAC;IACT,aAAa,EAAE,CAAC",
-  "sources": [
-    "pro.scss"
-  ],
-  "names": [],
-  "file": "pro.css"
+"version": 3,
+"mappings": "AAAA;;;;GAIG;AACH;;uDAEuD;AAC/C,gGAAwF;AAWhG;;uDAEuD;AAGnD,oBAAW;EACT,gBAAgB,EAdT,OAAO;EAed,qCAAiB;IACf,SAAS,EAAE,IAAI;EAEjB,oCAAgB;IACd,SAAS,EAAE,cAAc;EAE3B,0BAAM;IACJ,MAAM,EAAE,CAAC;IACT,aAAa,EAAE,CAAC",
+"sources": ["pro.scss"],
+"names": [],
+"file": "pro.css"
 }
