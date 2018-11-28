@@ -19,9 +19,12 @@ html body #feautures {
     border-radius: 0; }
     html body #feautures .card .card-header {
       background-color: rgba(0, 0, 0, 0.3); }
-      html body #feautures .card .card-header .badge-custom {
-        background-color: rgba(162, 74, 178, 0.85);
+      html body #feautures .card .card-header .badge {
         vertical-align: top;
         font-size: 60%; }
+      html body #feautures .card .card-header .badge-custom {
+        background-color: rgba(162, 74, 178, 0.85); }
+      html body #feautures .card .card-header .badge-success {
+        background-color: rgba(0, 171, 108, 0.85); }
 
 /*# sourceMappingURL=feature.css.map */

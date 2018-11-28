@@ -34,10 +34,15 @@ html {
         border-radius: 0;
         .card-header {
           background-color: rgba(0, 0, 0, .3);
-          .badge-custom {
-            background-color: rgba(162, 74, 178, 0.85);
+          .badge {
             vertical-align: top;
             font-size: 60%;
+          }
+          .badge-custom {
+            background-color: rgba(162, 74, 178, .85);
+          }
+          .badge-success {
+            background-color: rgba(0, 171, 108, .85);
           }
         }
       }
