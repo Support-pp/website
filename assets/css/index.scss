@@ -133,14 +133,16 @@ html {
         .social-network a.icoFacebook:hover {
           background-color: #3b5998;
         }
+        .social-network a.icoInstagram:hover {
+          background-color: #c13584;
+        }
         .social-network a.icoTwitter:hover {
           background-color: #33ccff;
         }
         .social-network a.icoGitHub:hover {
           background-color: #000000;
         }
-        .social-network a.icoWebsite:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
-        .social-network a.icoGitLab:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoGitHub:hover i {
+        .social-network a.icoWebsite:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i, .social-network a.icoInstagram:hover i, .social-network a.icoGitHub:hover i {
           color: #fff;
         }
         a.socialIcon:hover, .socialHoverClass {
