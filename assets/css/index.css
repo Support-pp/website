@@ -88,12 +88,13 @@ html body #team .card-footer {
     background-color: #4285F4; }
   html body #team .card-footer .social-network a.icoFacebook:hover {
     background-color: #3b5998; }
+  html body #team .card-footer .social-network a.icoInstagram:hover {
+    background-color: #c13584; }
   html body #team .card-footer .social-network a.icoTwitter:hover {
     background-color: #33ccff; }
   html body #team .card-footer .social-network a.icoGitHub:hover {
     background-color: #000000; }
-  html body #team .card-footer .social-network a.icoWebsite:hover i, html body #team .card-footer .social-network a.icoFacebook:hover i, html body #team .card-footer .social-network a.icoTwitter:hover i,
-  html body #team .card-footer .social-network a.icoGitLab:hover i, html body #team .card-footer .social-network a.icoVimeo:hover i, html body #team .card-footer .social-network a.icoGitHub:hover i {
+  html body #team .card-footer .social-network a.icoWebsite:hover i, html body #team .card-footer .social-network a.icoFacebook:hover i, html body #team .card-footer .social-network a.icoTwitter:hover i, html body #team .card-footer .social-network a.icoInstagram:hover i, html body #team .card-footer .social-network a.icoGitHub:hover i {
     color: #fff; }
   html body #team .card-footer a.socialIcon:hover, html body #team .card-footer .socialHoverClass {
     color: #44BCDD; }
