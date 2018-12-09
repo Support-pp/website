@@ -60,8 +60,6 @@
  /*===================================================
   *                     Styling
   *===================================================*/
- html {
-   body {
      .fade-in-top {
        -webkit-animation: fade-in-top 1s cubic-bezier(.39, .575, .565, 1.000) 50ms both;
        animation: fade-in-top 1s cubic-bezier(.39, .575, .565, 1.000) 50ms both
@@ -198,9 +196,6 @@
          }
        }
      }
-   }
- 
- }
 
  #h30{
      height: 30px !important;
