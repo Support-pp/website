@@ -66,6 +66,8 @@ html body #team .card {
 @media (min-width: 992px) {
   html body #team .border-left {
     border-left: solid #181D40 1px; }
+  html body #team .border-top {
+    border-top: solid #181D40 2px; }
   html body #team .border-right {
     border-right: solid #181D40 1px; } }
 html body #team .card-header {
