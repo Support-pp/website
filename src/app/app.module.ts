@@ -8,18 +8,17 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { FeatureComponent } from './feature/feature.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
-import { ImprintComponent } from './imprint/imprint.component';
-import { DsgvoComponent } from './dsgvo/dsgvo.component';
 
 import { RouterModule, Routes } from '@angular/router';
+import { StatistikComponent } from './statistik/statistik.component';
 
 
 const appRoutes: Routes = [
 
   { path: '', component: HomeComponent },
-  { path: 'impressum', component: ImprintComponent },
   { path: 'feature', component: FeatureComponent },
-  { path: 'impressum', component: ImprintComponent },
+  { path: 'about', component: AboutusComponent },
+  { path: 'statistik', component: StatistikComponent },
 ];
 
 
@@ -31,8 +30,7 @@ const appRoutes: Routes = [
     HomeComponent,
     FeatureComponent,
     AboutusComponent,
-    ImprintComponent,
-    DsgvoComponent
+    StatistikComponent,
   ],
   imports: [
     BrowserModule,

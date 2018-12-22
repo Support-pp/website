@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DsgvoComponent } from './dsgvo.component';
+import { StatistikComponent } from './statistik.component';
 
-describe('DsgvoComponent', () => {
-  let component: DsgvoComponent;
-  let fixture: ComponentFixture<DsgvoComponent>;
+describe('StatistikComponent', () => {
+  let component: StatistikComponent;
+  let fixture: ComponentFixture<StatistikComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DsgvoComponent ]
+      declarations: [ StatistikComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DsgvoComponent);
+    fixture = TestBed.createComponent(StatistikComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
